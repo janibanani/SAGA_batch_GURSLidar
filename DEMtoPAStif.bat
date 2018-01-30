@@ -2,7 +2,7 @@
 echo ************* This a CONVERT batch file ***********************
 pause
 FOR %%G IN (*.asc) DO (
-
+dssss
 saga_cmd io_grid 6 -GRID %%~nG.sgrd -FILENAME %%G -CAPTION 0 -CELLSIZE 1 -SEPARATOR 3
 
 
